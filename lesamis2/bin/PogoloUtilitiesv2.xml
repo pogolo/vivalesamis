@@ -1,0 +1,67 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PogoloUtilitiesv2
+</name>
+</assembly>
+<members>
+<member name="M:PogoloUtilities.ExcelXMLBuilder.AppendRow(System.String,System.Collections.ArrayList)">
+	<summary>
+ Add a row to a worksheet
+ </summary>
+	<param name="WorkSheetName"></param>
+	<param name="RowData">ArrayList of RowDataObject</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PogoloUtilities.ExcelXMLBuilder.AppendRow(System.Xml.XmlElement,System.Collections.ArrayList)">
+	<summary>
+ Add a row to a worksheet
+ </summary>
+	<param name="WorkSheet"></param>
+	<param name="RowData">ArrayList of RowDataObject</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PogoloUtilities.ExcelXMLBuilder">
+	<summary>
+ Builds an XML document that can be opened in Excel
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PogoloUtilities.SHA1Encryption.IsValidPassword(System.String,System.String,System.String)">
+	<summary>
+ Compare user's password against retrieved salt and password hash
+ </summary>
+	<param name="Password"></param>
+	<param name="Salt"></param>
+	<param name="PasswordHash"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PogoloUtilities.ImageFileObject.DeliverFile(System.Web.UI.Page,System.Byte[],System.String,System.String)">
+	<summary>
+ Writes a byte() file to a web page
+ </summary>
+	<param name="CurPage">Target page</param>
+	<param name="FileData">Byte() data</param>
+	<param name="FileType">Type of file</param>
+	<param name="FileName">File Name</param>
+	<remarks></remarks>
+</member><member name="M:PogoloUtilities.ImageFileObject.CreateThumbnailImage(System.Web.UI.Page,System.Byte[],System.Int32,System.Int32)">
+	<summary>
+ Create high-resolution jpg image from a Byte() array
+ </summary>
+	<param name="CurrentPage"></param>
+	<param name="ImageByte"></param>
+	<param name="Width"></param>
+	<param name="Height"></param>
+	<remarks></remarks>
+</member><member name="M:PogoloUtilities.XMLUtilities.RemoveInvalidXMLCharacters(System.String)">
+	<summary>
+ Removes special unicode characters like 'smart quotes', etc.
+ http://www.roubaixinteractive.com/PlayGround/Binary_Conversion/The_Characters.asp
+ </summary>
+	<param name="StringValue"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

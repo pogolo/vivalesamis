@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="lesamis2">
+</Property><Property Name="Solution File" Value="C:\Users\cvestre\Documents\Projects\vivalesamis.com\lesamis2\lesamis2.sln">
+</Property><Property Name="User Options File" Value="C:\Users\cvestre\Documents\Projects\vivalesamis.com\lesamis2\lesamis2.suo">
+</Property><Property Name="Date" Value="Monday, July 24, 2017">
+</Property><Property Name="Time" Value="15:29 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="lesamis2.sln" Description="File successfully backed up as C:\Users\cvestre\Documents\Projects\vivalesamis.com\lesamis2\Backup\lesamis2.sln">
+</Event><Event ErrorLevel="0" Project="" Source="lesamis2.suo" Description="File successfully backed up as C:\Users\cvestre\Documents\Projects\vivalesamis.com\lesamis2\Backup\lesamis2.suo">
+</Event><Event ErrorLevel="1" Project="lesamis2" Source="..\lesamis2" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="1" Project="PogoloDataProvider v2" Source="..\..\Documents and Settings\cvestre\My Documents\Visual Studio 2005\Projects\PogoloDataProvider v2\PogoloDataProvider v2.vbproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="PogoloDataProvider v2" Source="..\..\Documents and Settings\cvestre\My Documents\Visual Studio 2005\Projects\PogoloDataProvider v2\PogoloDataProvider v2.vbproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="1" Project="PogoloUtilities v2" Source="..\..\Documents and Settings\cvestre\My Documents\Visual Studio 2005\Projects\PogoloUtilities v2\PogoloUtilities v2.vbproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="PogoloUtilities v2" Source="..\..\Documents and Settings\cvestre\My Documents\Visual Studio 2005\Projects\PogoloUtilities v2\PogoloUtilities v2.vbproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="" Source="lesamis2.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="lesamis2.sln" Description="Converted">
+</Event></UpgradeLog>

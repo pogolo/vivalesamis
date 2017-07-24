@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PogoloDataProviderv2
+</name>
+</assembly>
+<members>
+<member name="M:PogoloDataProvider.Data.GridViewExcelExport.Export(System.String,System.Web.UI.WebControls.GridView)">
+	<summary>
+ Parse a GridView control and render it as an Excel file.
+ </summary>
+	<param name="FileName">File name of Excel file</param>
+	<param name="CurGridView">GridView to re-render</param>
+	<remarks></remarks>
+</member><member name="M:PogoloDataProvider.Data.ExcelADO.#ctor(System.String)">
+	<summary>
+ Requires a server-bound copy of the spreadsheet.
+ </summary>
+	<param name="ExcelFilePath">System (not web) path to Excel file.</param>
+	<remarks></remarks>
+</member><member name="M:PogoloDataProvider.Data.ExcelADO.ExecuteQuery(System.String,System.Type)">
+	<summary>
+ Run a SQL-style query on an Excel spreadsheet.
+ </summary>
+	<param name="ExcelQuery">Such as:<br/>"Select * FROM [SKUs$]" - Selects all columns in a specified worksheet
+ <br/>Select ID,Name FROM RangeName" - Selects specified columns from a previously defined range.
+ </param>
+	<param name="TargetObjectType"></param>
+	<returns>ArrayList of the object type you passed in.</returns>
+	<remarks>Uses "Microsoft.Jet.OLEDB.4.0" data provider for Excel access.</remarks>
+</member>
+</members>
+</doc>

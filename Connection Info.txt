@@ -1,0 +1,95 @@
+FTP:
+ftp://ftp.vivalesamis.com
+username: vivalesamis.com
+password: dbd5vp
+
+SQL:
+75.126.14.53,2433
+lesamis
+vivalesamis2005
+
+Domain Manager:
+Network Solutions
+Username: fancyhiggins@hotmail.com
+Password: lesamis2005
+
+
+PayPal Account Info:
+Username: info@vivalesamis.com
+Password: lesamis2005
+Thank you page:  http://vivalesamis.com/thankyou.aspx
+Cancel page: http://vivalesamis.com/merchandise.aspx
+
+
+======================= 
+Account Information 
+======================= 
+Username: ERIS1200
+Password: dbd5vp
+Server Name: EIOS 
+
+UNITY:
+Customer ID: 11188
+Password: bQ121m8Z51Bi
+
+
+======================= 
+Login URL 
+======================= 
+https://control.si-eios.com
+ 
+Note: After you add a domain to the control panel, you can access the control panel by going to http://control.<YourDomain.com 
+ 
+ 
+======================= 
+DNS Name Server Settings 
+======================= 
+For any new domains that you wish to set up at Server Intellect, you will need to contact your domain registrar and specify the new name servers as follows: 
+ 
+ns1.si-eios.com 
+ns2.si-eios.com 
+ 
+ 
+======================= 
+Adding a New Domain 
+======================= 
+From the User Menu click on the 'Domains' Icon and then click the 'Add New' button at the bottom right of the panel. Simply follow the instructions to create your new domain. 
+ 
+ 
+======================= 
+Accessing your Domain 
+before DNS Propagation 
+(Temporary URL) 
+======================= 
+After you add your domain to the control panel you can install "PrePropagation Support" to test out your site.  Click on Application Packs in your Domain Menu to enable it. This will allow you to access your website before you update your DNS Name Servers.  See this KB article for more information: 
+http://kb.serverintellect.com/article.aspx?id=10361 
+ 
+======================= 
+FTP Account Settings 
+======================= 
+For any new domains you add through the control panel, a default FTP user is automatically created for you. The default FTP Settings are as follows: 
+ 
+(Please substitute your actual domain name for <YourDomain.com) 
+ 
+FTP Domain: ftp.<YourDomain.com 
+FTP IP Address: 74.86.103.64 
+Username: <YourDomain.com 
+Password: dbd5vp 
+ 
+Note: The username is the first 20 characters of your domain name including the . and extension. You can double check the username from the FTP Accounts menu. 
+ 
+ 
+======================= 
+Email Account Settings 
+======================= 
+You can automatically create, delete and modify email accounts right from the Server Intellect Control Panel. 
+ 
+How do I add an Email Account? 
+http://kb.serverintellect.com/article.aspx?id=10004&cNode=0Q5T8G 
+ 
+What are my POP3, IMAP, SMTP Settings? 
+http://kb.serverintellect.com/article.aspx?id=10005&cNode=0Q5T8G 
+ 
+After you add an email account to the control panel, you can access webmail at http://mail.<YourDomain.com 
+ 
+(Please substitute your actual domain name for <YourDomain.com) 

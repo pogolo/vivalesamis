@@ -1,0 +1,90 @@
+.hidden {
+	DISPLAY: none
+}
+.shown {
+	DISPLAY: inline
+}
+.normal {
+	FONT-WEIGHT: normal; CURSOR: hand
+}
+.tag {
+	CURSOR: hand; BACKGROUND-COLOR: #99ccff
+}
+IFRAME {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; frameborder: 0px; frame-style: none; borderstyle: none; scrolling: auto; frame-border: 0px
+}
+#button {
+	FONT: 9pt Arial, Verdana, Geneva, sans-serif; COLOR: #cccc00; TEXT-DECORATION: underline
+}
+#synopsisbox {
+	BORDER-RIGHT: #333 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #333 1px solid; PADDING-LEFT: 2px; LEFT: 225px; PADDING-BOTTOM: 2px; MARGIN: 0px auto; BORDER-LEFT: #333 1px solid; WIDTH: 400px; PADDING-TOP: 2px; BORDER-BOTTOM: #333 1px solid; POSITION: absolute; TOP: 50px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+#mainbox {
+	BORDER-RIGHT: black 1px double; PADDING-RIGHT: 0px; BORDER-TOP: black 1px double; PADDING-LEFT: 0px; LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; BORDER-LEFT: black 1px double; WIDTH: 200px; PADDING-TOP: 0px; BORDER-BOTTOM: black 1px double; POSITION: absolute; TOP: 5px; HEIGHT: 550px; BACKGROUND-COLOR: white; TEXT-ALIGN: left
+}
+#linkbox {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LEFT: 125px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 350px; PADDING-TOP: 0px; POSITION: absolute; TOP: 325px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+LEGEND {
+	FONT: bold 10pt Times, Times New Roman, serif; COLOR: black
+}
+BODY {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 0px; FONT: 10pt Times, Times New Roman, serif; PADDING-TOP: 5px; BACKGROUND-COLOR: white; font-color: black
+}
+TABLE {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; FONT: 10pt Times, Times New Roman, serif; PADDING-TOP: 1px; BACKGROUND-COLOR: transparent
+}
+TR {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; FONT: 10pt Times, Times New Roman, serif; PADDING-TOP: 1px; BACKGROUND-COLOR: transparent
+}
+TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; FONT: 10pt Times, Times New Roman, serif; VERTICAL-ALIGN: top; COLOR: black; PADDING-TOP: 3px
+}
+P {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; FONT: 8pt Arial, Verdana, Geneva, sans-serif; COLOR: #000000; PADDING-TOP: 5px
+}
+SELECT {
+	BACKGROUND: #ffffff; MARGIN: 3px; FONT: 8pt Arial, Verdana; COLOR: #000000
+}
+TEXTAREA {
+	BACKGROUND: #ffffff; MARGIN: 3px; FONT: 8pt Arial, Verdana; COLOR: #000000
+}
+INPUT {
+	MARGIN: 3px; FONT: 8pt Arial, Verdana; COLOR: #000000
+}
+A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 10pt Times, Times New Roman, serif; COLOR: black; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-DECORATION: underline; BORDER-BOTTOM-STYLE: none
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+A:link {
+	FONT: 10pt Times, Times New Roman, serif; COLOR: black; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT: 10pt Times, Times New Roman, serif; COLOR: black; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT: 10pt Times, Times New Roman, serif; COLOR: black; TEXT-DECORATION: none
+}
+A:active {
+	FONT: 10pt Times, Times New Roman, serif; COLOR: red; TEXT-DECORATION: underline
+}
+H1 {
+	FONT: bold 16pt Times, Times New Roman, serif; COLOR: black
+}
+H2 {
+	FONT: bold 12pt Times, Times New Roman, serif; COLOR: black
+}
+H3 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 0px; FONT: 8pt Times, Times New Roman, serif; PADDING-TOP: 5px; TEXT-ALIGN: right
+}
+H4 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; FONT: bold 9pt Arial, Verdana, Geneva, sans-serif; PADDING-TOP: 5px
+}
+H5 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; FONT: bold 9pt Arial, Verdana, Geneva, sans-serif; PADDING-TOP: 5px
+}
+H6 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; FONT: bold 9pt Arial, Verdana, Geneva, sans-serif; PADDING-TOP: 5px
+}

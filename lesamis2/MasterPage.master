@@ -1,0 +1,23 @@
+<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+<%@ Register Src="Controls/MenuControl.ascx" TagName="MenuControl" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Viva Les Amis</title>
+   		<meta name="description" content="Viva Les Amis -- A documentary by Nancy Higgins. The film explores the 27 year history of Les Amis Café – a sidewalk café that served almost three decades of eclectic customers and staff." />
+		<meta name="keywords" content="Viva Les Amis, Austin, Texas, French, cuisine, food, restaurant, Nancy Higgins, Alan Pogue, Newman Stribling" />
+		<script type="text/javascript" language="javascript" src="js/utilities.js"></script>
+		<link href="css/Styles.css" type="text/css" rel="stylesheet" /> 
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div align="center"><img runat="server" src="~/images/viva-les-amis-cent.jpg" alt="Viva Les Amis - The Documentary Film" /></div>
+    <div>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+        <br />
+        <uc1:MenuControl ID="MenuControl1" runat="server" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,261 @@
+.hidden {display:none}
+.shown {display:inline}
+
+.MenuContent
+{
+    width:100%;
+    height:60px;
+    bottom:0px;
+    left:0px;
+    position:fixed;
+    background-color:white;
+    overflow:visible;
+}
+
+.MenuLinks
+{
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+A.Disabled:LINK
+{
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+A.Disabled:HOVER
+{
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+A.Disabled:VISITED
+{
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+A.Disabled:ACTIVE
+{
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.DVDLink
+{
+	text-decoration : none;
+	color : red;
+	font-weight:bold;
+	font : normal 10pt Times, Times New Roman, serif;
+}
+  
+A.DVDLink:link {
+    text-decoration:    none;
+    color : red;
+    font-weight:bold;
+}
+
+A.DVDLink:visited  {
+    text-decoration:    none;
+    color : red;
+    font-weight:bold;
+}
+
+A.DVDLink:active   {
+    text-decoration:    underline;
+    color : red;
+    font-weight:bold;
+}
+
+A.DVDLink:hover    {
+    text-decoration:    underline;
+    color : red;
+    font-weight:bold;
+}
+
+.DVDText
+{
+	color:Red;
+	font-weight:bold;
+}
+
+
+.normal{
+	cursor:hand;
+	font-weight:normal;
+}
+
+.tag{
+	background-color:#99CCFF;
+	cursor:hand;
+}
+
+.DVDText
+{
+	color:Red;
+	font-weight:bold;
+}
+
+#button {
+	text-decoration : underline;
+	color : #CCCC00;
+	font : normal 9pt Arial, Verdana, Geneva, sans-serif;
+}
+
+#synopsisbox {
+	position:absolute;
+	top:50px;
+	left:225px;
+	width:400px;
+	margin:0px auto;
+	text-align:left;
+	padding:2px;
+	border:1px solid #333;
+	background-color:transparent;
+}
+
+#mainbox {
+	position:absolute;
+	top:5px;
+	left:5px;
+	width:200px;
+	height:550px;
+	margin:0px auto;
+	text-align:left;
+	background-color:white;
+	padding:0px;
+	border:1px double black;
+}
+
+#linkbox {
+	position:absolute;
+	top:325px;
+	left:125px;
+	width:350px;
+	margin:0px auto;
+	text-align:left;
+	padding:0px;
+	background-color:transparent;
+}
+
+LEGEND {
+	font-style : normal;
+	color : black;
+	font :  bold 10pt Times, Times New Roman, serif;
+}
+
+BODY { 
+	font:normal 10pt Times, Times New Roman, serif;
+	margin:0px;
+	padding:5px;
+	background-color:white;
+	color: black;
+}
+
+TABLE{
+	font : normal 10pt Times, Times New Roman, serif;
+	padding : 1px;
+	background-color: transparent;
+}
+
+TR {	font : normal 10pt Times, Times New Roman, serif;
+	padding : 1px;
+	background-color: transparent;
+	
+}
+
+TD{
+	font : normal 10pt Times, Times New Roman, serif;
+	color: black;
+	padding : 3px;
+	margin : 0px 5px 0 px 5px;
+	vertical-align : top;	
+}
+
+P {	
+	padding: 5px;
+	color : #000000;
+	font : normal 8pt Arial, Verdana, Geneva, sans-serif;
+}
+
+SELECT, TEXTAREA{
+	color: #000000;
+	font : normal 8pt Arial, Verdana;
+	background : #FFFFFF;
+	margin : 3px 3px 3px 3px;
+}
+
+INPUT{
+	color: #000000;
+	font : normal 8pt Arial, Verdana;
+	margin : 3px 3px 3px 3px;
+}
+
+A {
+	text-decoration : underline;
+	font-style : normal;
+	color : black;
+	font : normal 10pt Times, Times New Roman, serif;
+	padding : 0px;
+	border:none;
+}
+
+IMG {
+	border:none;
+}
+
+A:LINK {
+	text-decoration : underline;
+	color : black;
+	font : normal 10pt Times, Times New Roman, serif;
+}
+
+A:VISITED {
+	text-decoration : underline;
+	color : black;
+	font : normal 10pt Times, Times New Roman, serif;
+}
+
+A:HOVER {
+	text-decoration : none;
+	color : black;
+	font : normal 10pt Times, Times New Roman, serif;
+}
+
+A:ACTIVE {
+	text-decoration : underline;
+	color : RED;
+	font : normal 10pt Times, Times New Roman, serif;
+}
+
+H1 {
+	font : bold 16pt Times, Times New Roman, serif;
+	color : black;
+}
+
+H2 {	
+	font : bold 12pt Times, Times New Roman, serif;
+	color : black;
+}
+
+H3
+{
+	font:normal 8pt Times, Times New Roman, serif;
+	margin:0px;
+	padding:5px;
+	text-align:right;		
+}
+
+H4, H5, H6 {
+	font : bold 9pt Arial, Verdana, Geneva, sans-serif;
+	padding : 5px;
+}
+
+
