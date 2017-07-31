@@ -6,7 +6,16 @@ PogoloUtilitiesv2
 </name>
 </assembly>
 <members>
-<member name="M:PogoloUtilities.ExcelXMLBuilder.AppendRow(System.String,System.Collections.ArrayList)">
+<member name="M:PogoloUtilities.SHA1Encryption.IsValidPassword(System.String,System.String,System.String)">
+	<summary>
+ Compare user's password against retrieved salt and password hash
+ </summary>
+	<param name="Password"></param>
+	<param name="Salt"></param>
+	<param name="PasswordHash"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PogoloUtilities.ExcelXMLBuilder.AppendRow(System.String,System.Collections.ArrayList)">
 	<summary>
  Add a row to a worksheet
  </summary>
@@ -27,13 +36,12 @@ PogoloUtilitiesv2
  Builds an XML document that can be opened in Excel
  </summary>
 	<remarks></remarks>
-</member><member name="M:PogoloUtilities.SHA1Encryption.IsValidPassword(System.String,System.String,System.String)">
+</member><member name="M:PogoloUtilities.XMLUtilities.RemoveInvalidXMLCharacters(System.String)">
 	<summary>
- Compare user's password against retrieved salt and password hash
+ Removes special unicode characters like 'smart quotes', etc.
+ http://www.roubaixinteractive.com/PlayGround/Binary_Conversion/The_Characters.asp
  </summary>
-	<param name="Password"></param>
-	<param name="Salt"></param>
-	<param name="PasswordHash"></param>
+	<param name="StringValue"></param>
 	<returns></returns>
 	<remarks></remarks>
 </member><member name="M:PogoloUtilities.ImageFileObject.DeliverFile(System.Web.UI.Page,System.Byte[],System.String,System.String)">
@@ -53,14 +61,6 @@ PogoloUtilitiesv2
 	<param name="ImageByte"></param>
 	<param name="Width"></param>
 	<param name="Height"></param>
-	<remarks></remarks>
-</member><member name="M:PogoloUtilities.XMLUtilities.RemoveInvalidXMLCharacters(System.String)">
-	<summary>
- Removes special unicode characters like 'smart quotes', etc.
- http://www.roubaixinteractive.com/PlayGround/Binary_Conversion/The_Characters.asp
- </summary>
-	<param name="StringValue"></param>
-	<returns></returns>
 	<remarks></remarks>
 </member>
 </members>

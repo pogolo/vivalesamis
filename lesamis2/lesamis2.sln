@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "lesamis2", ".", "{D4703370-40BE-4914-9BFE-E77FB4E7317E}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
@@ -20,12 +22,13 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "lesamis2", ".", "{D4703370-
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "1877"
+		SlnRelativePath = "..\lesamis2\"
 		DefaultWebSiteLanguage = "Visual Basic"
 	EndProjectSection
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PogoloDataProvider v2", "..\..\..\.NET Projects\PogoloDataProvider v2\PogoloDataProvider v2.vbproj", "{EFC1BA80-58BB-490C-861D-DF06C9977D97}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PogoloDataProvider v2", "..\..\PogoloDataProvider\PogoloDataProvider v2.vbproj", "{EFC1BA80-58BB-490C-861D-DF06C9977D97}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PogoloUtilities v2", "..\..\..\.NET Projects\PogoloUtilities v2\PogoloUtilities v2.vbproj", "{F17BCA76-0D9A-4B6B-902A-37B9E2E968DA}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PogoloUtilities v2", "..\..\PogoloUtilities\PogoloUtilities v2.vbproj", "{F17BCA76-0D9A-4B6B-902A-37B9E2E968DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,16 +40,16 @@ Global
 		Release|Mixed Platforms = Release|Mixed Platforms
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Debug|.NET.ActiveCfg = Debug|.NET
-		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Debug|.NET.Build.0 = Debug|.NET
-		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Debug|Any CPU.ActiveCfg = Debug|.NET
-		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
-		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Debug|Mixed Platforms.Build.0 = Debug|.NET
-		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Release|.NET.ActiveCfg = Debug|.NET
-		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Release|.NET.Build.0 = Debug|.NET
-		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Release|Any CPU.ActiveCfg = Debug|.NET
-		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
-		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D4703370-40BE-4914-9BFE-E77FB4E7317E}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
 		{EFC1BA80-58BB-490C-861D-DF06C9977D97}.Debug|.NET.ActiveCfg = Debug|Any CPU
 		{EFC1BA80-58BB-490C-861D-DF06C9977D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EFC1BA80-58BB-490C-861D-DF06C9977D97}.Debug|Any CPU.Build.0 = Debug|Any CPU

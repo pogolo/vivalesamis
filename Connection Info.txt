@@ -1,7 +1,7 @@
 FTP:
 ftp://ftp.vivalesamis.com
-username: vivalesamis.com
-password: dbd5vp
+username: ftp_vivalesamis
+password: M8quShgfmD3jADUQ
 
 SQL:
 75.126.14.53,2433
